@@ -50,6 +50,8 @@ def part_2():
 if __name__ == "__main__":
     res_1 = part_1()
     print(res_1)
+    assert res_1 == 54667
 
     res_2 = part_2()
     print(res_2)
+    assert res_2 == 54203
