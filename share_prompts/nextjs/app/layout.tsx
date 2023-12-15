@@ -2,23 +2,17 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 import "@styles/globals.css";
 import { Metadata } from "next";
-import { Session } from "next-auth";
 
 export const metadata: Metadata = {
   title: "Promptopia MS",
   description: "Discover & Share AI Prompts",
 };
 
-interface RootLayoutProps {
-  children: React.ReactElement;
-  session: Session;
-}
-
-const RootLayout = ({ children, session }: RootLayoutProps) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body>
-        <Provider session={session}>
+        <Provider>
           <div className="main">
             <div className="gradient"></div>
           </div>
