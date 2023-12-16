@@ -1,0 +1,50 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "pdm@latest": {
+      "last_modified": "2023-12-03T07:45:23Z",
+      "resolved": "github:NixOS/nixpkgs/ec04772e7516b6d58d98b491e68b329b7558b14d#pdm",
+      "source": "devbox-search",
+      "version": "2.10.4",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/6ml7xly9g8h8qq8dmn1cyzjvkg5pyfyw-pdm-2.10.4"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/8hgzzpphfz1mdk51s531kgl338akrykg-pdm-2.10.4"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/rw6p3ik32ynl4i7bwyhiablia3dz2s7h-pdm-2.10.4"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/qc0yhfa37xin2dxjldxd33zf25addhbr-pdm-2.10.4"
+        }
+      }
+    },
+    "python312Packages.tkinter": {
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python312Packages.tkinter",
+      "source": "nixpkg"
+    },
+    "python@3.12": {
+      "last_modified": "2023-12-09T06:39:50Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/29558c0722ffd40ff625256e16259168b7c03ed1#python312",
+      "source": "devbox-search",
+      "version": "3.12.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/47ha2dhabnw91lvlldgrxkl4xgza4d0f-python3-3.12.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/bvn9baalmm2pb49z87qldcjmcil57yzv-python3-3.12.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/ihbysbarzqdfdj97ss4gxxmsqmd9lj1r-python3-3.12.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/impzpmx53fy5l8hybw78jnfv13mh9vfd-python3-3.12.1"
+        }
+      }
+    }
+  }
+}
